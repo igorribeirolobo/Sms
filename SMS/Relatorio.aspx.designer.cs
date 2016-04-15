@@ -31,6 +31,15 @@ namespace SMS {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
+        /// btnds control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnds;
+        
+        /// <summary>
         /// ddSetor control.
         /// </summary>
         /// <remarks>
@@ -85,15 +94,6 @@ namespace SMS {
         protected global::System.Web.UI.WebControls.Calendar cdfim;
         
         /// <summary>
-        /// lblsql control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblsql;
-        
-        /// <summary>
         /// btnGerar1 control.
         /// </summary>
         /// <remarks>
@@ -101,6 +101,15 @@ namespace SMS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnGerar1;
+        
+        /// <summary>
+        /// btnGerar2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnGerar2;
         
         /// <summary>
         /// tblrelatorio control.
