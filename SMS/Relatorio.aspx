@@ -18,9 +18,9 @@
     <br /><asp:Button ID="btnGerar1" runat="server" CssClass="btn btn-success btn-lg" OnClick="btnGerar1_Click" Text="Gerar" Visible="False" />
         <asp:Button ID="btnGerar2" runat="server" CssClass="btn btn-success btn-lg" OnClick="btnGerar2_Click" Text="Gerar" Visible="False" />
     <br />
-    <asp:Table ID="tblrelatorio2" runat="server" CssClass="table table-striped" Height="33px" Width="1100px">
+    <asp:Table ID="tblrelatorio2" runat="server" CssClass="table table-striped" Height="33px" Width="1000px">
     </asp:Table>
-    <asp:Table ID="tblrelatorio" runat="server" CssClass="table table-striped" Height="32px" Width="1100px" Visible="False">
+    <asp:Table ID="tblrelatorio" runat="server" CssClass="table table-striped" Height="32px" Width="1000px" Visible="False">
     </asp:Table>
     <asp:Table ID="tblrelatorio1" runat="server" CssClass="table table-striped" Height="33px" Visible="False" Width="1100px">
     </asp:Table>
