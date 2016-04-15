@@ -1,0 +1,13 @@
+Z:\documento\sms\SMS\SMS\bin\SMS.dll.config
+Z:\documento\sms\SMS\SMS\bin\SMS.dll
+Z:\documento\sms\SMS\SMS\bin\SMS.pdb
+Z:\documento\sms\SMS\SMS\bin\MySql.Data.dll
+Z:\documento\sms\SMS\SMS\obj\Release\SMS.dll
+Z:\documento\sms\SMS\SMS\obj\Release\SMS.pdb
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\bin\SMS.dll.config
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\bin\SMS.dll
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\bin\SMS.pdb
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\bin\MySql.Data.dll
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\obj\Release\SMS.dll
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\obj\Release\SMS.pdb
+\\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\obj\Release\SMS.csprojResolveAssemblyReference.cache
