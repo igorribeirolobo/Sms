@@ -8,7 +8,6 @@
     <br /><br />
     <asp:DropDownList ID="ddSetor" runat="server" Visible="False"></asp:DropDownList><br /><br />
     <asp:Button ID="btnGerar" runat="server" OnClick="btnGerar_Click" Text="Gerar" Width="56px" CssClass="btn btn-success btn-block" Visible="False" />
-    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     <br />
     <asp:Label ID="lbldataini" runat="server" Text="Data Inicial.:" Visible="False"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
