@@ -208,6 +208,63 @@ namespace SMS
 
         protected void btnGerar2_Click(object sender, EventArgs e)
         {
+            tblrelatorio1.Visible = true;
+            if (tblrelatorio.Visible == true)
+            {
+                tblrelatorio.Visible = false;
+            }
+            TableRow tb = new TableRow();
+            tblrelatorio2.Rows.Add(tb);
+            TableCell cell = new TableCell();
+            TableCell cell1 = new TableCell();
+            TableCell cell2 = new TableCell();
+            cell.Text = "Usuário";
+            cell1.Text = "Quantidade de Sms";
+            cell2.Text = "Data";
+            tb.Cells.Add(cell);
+            tb.Cells.Add(cell1);
+            tb.Cells.Add(cell2);
+            string dataini = cdini.SelectedDate.ToString();
+            string[] inicio = dataini.Split(" ".ToCharArray());
+            string[] inidata = inicio[0].Split("/".ToCharArray());
+            string nova_dataini = inidata[2] + "/" + inidata[1] + "/" + inidata[0] + " " + inicio[1];
+            string datafim = cdfim.SelectedDate.ToString();
+            string[] fim = datafim.Split(" ".ToCharArray());
+            string[] fimdata = fim[0].Split("/".ToCharArray());
+            string nova_datafim = fimdata[2] + "/" + fimdata[1] + "/" + fimdata[0] + " " + fim[1];
+            string sql = "SELECT * FROM login WHERE idLogin=" + ddSetor.SelectedValue;
+            string sql1 = "SELECT * FROM tb_contagem WHERE id_user=" + ddSetor.SelectedValue + " AND data >='" + nova_dataini + "' AND data <='" + nova_datafim+"'";
+            MySqlDataReader reader = this.banco.leitor(sql);
+            MySqlDataReader ler = this.banco.leitor(sql1);
+            int soma = 0;
+            while (reader.Read())
+            {
+                while (ler.Read())
+            {  
+
+                    TableRow tb1 = new TableRow();
+                    tblrelatorio2.Rows.Add(tb1);
+                    TableCell coluna = new TableCell();
+                    TableCell coluna1 = new TableCell();
+                    TableCell coluna2 = new TableCell();
+                    soma += Convert.ToInt16(ler["cont"].ToString());
+                    coluna.Text = reader["Nome"].ToString();
+                    coluna1.Text = ler["cont"].ToString();
+                    coluna2.Text = ler["data"].ToString();
+                    tb1.Cells.Add(coluna);
+                    tb1.Cells.Add(coluna1);
+                    tb1.Cells.Add(coluna2);
+
+                }
+            }
+            TableRow tb2 = new TableRow();
+            tblrelatorio2.Rows.Add(tb2);
+            TableCell total = new TableCell();
+            TableCell total1 = new TableCell();
+            total.Text = "Total.:";
+            total1.Text = soma.ToString();
+            tb2.Cells.Add(total);
+            tb2.Cells.Add(total1);
 
         }
     }

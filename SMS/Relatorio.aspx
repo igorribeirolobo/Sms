@@ -8,6 +8,7 @@
     <br /><br />
     <asp:DropDownList ID="ddSetor" runat="server" Visible="False"></asp:DropDownList><br /><br />
     <asp:Button ID="btnGerar" runat="server" OnClick="btnGerar_Click" Text="Gerar" Width="56px" CssClass="btn btn-success btn-block" Visible="False" />
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     <br />
     <asp:Label ID="lbldataini" runat="server" Text="Data Inicial.:" Visible="False"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -16,6 +17,8 @@
     <asp:Button ID="btnGerar1" runat="server" CssClass="btn btn-success btn-lg" OnClick="btnGerar1_Click" Text="Gerar" Visible="False" />
     <asp:Button ID="btnGerar2" runat="server" CssClass="btn btn-success btn-lg" OnClick="btnGerar2_Click" Text="Gerar" Visible="False" />
     <br />
+    <asp:Table ID="tblrelatorio2" runat="server" CssClass="table table-striped" Height="33px" Width="160px">
+    </asp:Table>
     <asp:Table ID="tblrelatorio" runat="server" CssClass="table table-striped" Height="32px" Width="157px" Visible="False">
     </asp:Table>
     <asp:Table ID="tblrelatorio1" runat="server" CssClass="table table-striped" Height="33px" Visible="False" Width="157px">
