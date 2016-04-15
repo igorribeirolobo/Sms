@@ -112,6 +112,7 @@ namespace SMS
             btnGerar1.Visible = false;
             cdini.Visible = false;
             cdfim.Visible = false;
+            btnGerar2.Visible = false;
 
         }
 
@@ -124,6 +125,7 @@ namespace SMS
             btnGerar1.Visible = true;
             ddSetor.Visible = false;
             btnGerar.Visible = false;
+            btnGerar2.Visible = false;
         }
 
         protected void btnGerar1_Click(object sender, EventArgs e)
@@ -185,6 +187,28 @@ namespace SMS
             total1.Text = soma.ToString();
             tb2.Cells.Add(total);
             tb2.Cells.Add(total1);
+        }
+
+        protected void btnds_Click(object sender, EventArgs e)
+        {
+            ddSetor.DataSource = this.banco.lista("select * from login");
+            ddSetor.DataTextField = "Nome";
+            ddSetor.DataValueField = "idLogin";
+            ddSetor.DataBind();
+            lbldataini.Visible = true;
+            lbldatafim.Visible = true;
+            cdini.Visible = true;
+            cdfim.Visible = true;
+            btnGerar1.Visible = false;
+            ddSetor.Visible = true;
+            btnGerar.Visible = false;
+            btnGerar2.Visible = true;
+
+        }
+
+        protected void btnGerar2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
