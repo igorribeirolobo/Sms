@@ -25,3 +25,10 @@ C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\bin\SMS.pdb
 C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
 C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\obj\Debug\SMS.dll
 C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\bin\SMS.dll.config
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\bin\SMS.dll
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\bin\SMS.pdb
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\bin\MySql.Data.dll
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\obj\Debug\SMS.dll
+C:\Users\lobo.igor\Desktop\SMS\SMS\SMS\obj\Debug\SMS.pdb
