@@ -19,3 +19,9 @@ Z:\documento\sms\SMS\SMS\obj\Debug\SMS.pdb
 \\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\obj\Debug\SMS.dll
 \\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\obj\Debug\SMS.pdb
 \\hisc.local\User\ADMINISTRATIVO\santo.igor\documento\sms\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\bin\SMS.dll.config
+C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\bin\SMS.dll
+C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\bin\SMS.pdb
+C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\obj\Debug\SMS.dll
+C:\Users\Igor\Documents\Projetos\sms\SMS\SMS\obj\Debug\SMS.pdb
