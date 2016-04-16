@@ -7,7 +7,6 @@
     <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary btn-lg" OnClick="Button1_Click1" Text="Data" />
     <asp:Button ID="btnds" runat="server" CssClass="btn btn-primary btn-lg" OnClick="btnds_Click" Text="Data + Setor" />
     <br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <br />
     <asp:DropDownList ID="ddSetor" runat="server" Visible="False"></asp:DropDownList><br /><br />
     <asp:Button ID="btnGerar" runat="server" OnClick="btnGerar_Click" Text="Gerar" Width="79px" CssClass="btn btn-success btn-lg" Visible="False" />
